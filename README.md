@@ -8,11 +8,11 @@ Develop two parametric classifiers by modeling each class’s conditional distri
 
 The classification will be done based on the following discriminant function:
 
-gi(x) = log p(Ci) + log p(x|Ci) 
+__gi(x) = log p(Ci) + log p(x|Ci)__
 
-where  p(Ci) is maximum likelihood estimate of the class prior probabilities, \
-p(x|C ) is the class conditional probabilities p(x|C ) \
-based on the maximum likelihood estimates of the mean μˆ and the (full/diagonal) covariance Σi for each class Ci. 
+where  _p(Ci)_ is maximum likelihood estimate of the class prior probabilities, \
+_p(x|Ci )_ is maximum likelihood estimate of the class conditional probabilities \
+based on the maximum likelihood estimates of the mean _μiˆ_ and the (full/diagonal) covariance _Σi_ for each class _Ci_. 
 
 Compare the performance of three models on three datasets: Boston50, Boston75, and Digits
 - MultiGaussClassify with full class covariance matrices
