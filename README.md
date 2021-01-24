@@ -1,2 +1,2 @@
-# ML_GaussianClassifier
+# MultiVariate Gaussian Classifier
 Implementation of Multi Variate Gaussian Classifier on Boston50, Boston75 and Digits datasets
