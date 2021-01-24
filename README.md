@@ -14,7 +14,7 @@ where  _p(Ci)_ is maximum likelihood estimate of the class prior probabilities, 
 _p(x|Ci )_ is maximum likelihood estimate of the class conditional probabilities \
 based on the maximum likelihood estimates of the mean _μiˆ_ and the (full/diagonal) covariance _Σi_ for each class _Ci_. 
 
-Compare the performance of three models on three datasets: Boston50, Boston75, and Digits
+Compare the performance of below three models on the datasets: Boston50, Boston75, and Digits
 - MultiGaussClassify with full class covariance matrices
 - MultiGaussClassify with diagonal covariance matrices, and 
 - LogisticRegression
